@@ -1,0 +1,19 @@
+.button {
+  padding: .7rem 2.5rem;
+  border-radius: 20%;
+  font-family: $roboto;
+  font-size: $small;
+  color: $white;
+  background-color: $nickel;
+}
+&:hover {
+  background-color: $platinium;
+  color: $white;
+}
+&:focus {
+  border: 2px solid $platinium;
+}
+
+.button_small {
+  padding: .7rem 1.75rem;
+}

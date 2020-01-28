@@ -1,0 +1,19 @@
+/* Error: $color: 900 is not a color.
+ *     ,
+ * 249 | $box-shadow-sm:               0 .125rem .25rem rgba($black, .075) !default;
+ *     |                                                ^^^^^^^^^^^^^^^^^^
+ *     '
+ *   vendor\bootstrap4.4.1\_variables.scss 249:48  @import
+ *   vendor\bootstrap4.4.1\bootstrap.scss 9:9      @import
+ *   main.scss 5:9                                 root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: $color: 900 is not a color.\a     \2577 \a 249 \2502  $box-shadow-sm:               0 .125rem .25rem rgba($black, .075) !default;\a     \2502                                                 ^^^^^^^^^^^^^^^^^^\a     \2575 \a   vendor\\bootstrap4.4.1\\_variables.scss 249:48  @import\a   vendor\\bootstrap4.4.1\\bootstrap.scss 9:9      @import\a   main.scss 5:9                                 root stylesheet";
+}

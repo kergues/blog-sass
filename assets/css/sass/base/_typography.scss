@@ -1,0 +1,17 @@
+ h1 {
+  color: $white;
+  font-family: $playfair-display;
+  font-weight: $black;
+  font-size: $xx-large;
+ }
+
+ h4 {
+  color: $raisin-black;
+  font-family: $roboto;
+  font-weight: $regular;
+  font-size: $large;
+  p {
+   font-size: $medium;
+   span {
+     color: $spanish-pink;
+   }

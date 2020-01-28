@@ -1,0 +1,18 @@
+// Abstracts
+@import 'abstracts/variables';
+
+//Vendor
+@import 'vendor/bootstrap4.4.1/bootstrap.scss';
+
+//Base
+@import 'base/reset';
+@import 'base/typography';
+
+//Layout
+@import 'layout/nav';
+@import 'layout/banner';
+@import 'layout/article';
+
+//Components
+@import 'components/buttons';
+@import 'components/navbar';
